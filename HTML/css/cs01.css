@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+h3{
+    color: purple;
+}
+hr{
+    border: 5px solid yellowgreen;
+}
+span{
+    font-size: 30px;
+    color: goldenrod;
+}
