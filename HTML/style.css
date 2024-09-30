@@ -1,0 +1,23 @@
+body{
+    background-color: ivory;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+hr{
+    text-align: center;
+    height: 20px;
+    border: solid gray;
+    background-color: greenyellow;
+}
+#span1{
+    font-size: 24px;
+    color: pink;
+}
+#span2{
+    font-size: 24px;
+    color: red;
+}

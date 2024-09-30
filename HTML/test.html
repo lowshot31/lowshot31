@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h3 onmouseover="show()" onmouseout="hide()">Elvis Presley</h3>
+    <hr>
+    <div>
+        <img src="" id="fig" >
+    </div>
+    He was a singer in the US, He was born at NOV, 1956.
+    His allbum <span id="span1">Love & Tender</span> have gained fame from all over the world.
+    He is referred as the <span id="span2">"King of Rock"</span>
+</body>
+<script>
+    function show() {
+        document.getElementById('fig').src = 'image/images.jpg';
+    };
+    function hide() {
+        document.getElementById('fig').src = '';
+    };
+</script>
+</html>
