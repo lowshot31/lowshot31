@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background: yellow;
+            width: 200px;
+            height: 60px;
+            padding: 10px;
+            border: 20px solid lightblue;
+        }
+        #ro{
+            border-image: url("../image/images.jpg") 30 round;
+        }
+        #ro2{
+            border-image: url("../image/images.jpg") 30 repeat;
+        }
+        #ro3{
+            border-image: url("../image/images.jpg") 30 stretch;
+        }
+    </style>
+</head>
+<body>
+    <h3>이미지 테두리</h3>
+    <hr>
+    원본 이미지 <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiHgKXFxSJTIoeI0mHutdJfegXnPZ_x_xYZw&s">
+    <hr>
+    <p>20 x 20 크기의 테두리를 가진 p 태그</p>
+    <p id="ro">round style 이미지 테두리를 가진 p 태그</p>
+    <p id="ro2">repeat style 이미지 테두리를 가진 p 태그</p>
+    <p id="ro3">stretch style 이미지 테두리를 가진 p 태그</p>
+</body>
+</html>

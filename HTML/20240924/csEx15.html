@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 150px;
+        height: 70px;
+        padding: 10px;
+        margin: auto;
+        border: 10px solid lightgray;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7GEfmhbHJYPDrH7JLICRF2_9w838_jJyKww&s);
+        background-size: 150px 100px;
+        background-repeat:no-repeat ;
+
+    }
+    #redbox{
+        box-shadow: 10px 10px red;
+    }
+    #blurbox{
+        box-shadow: 10px 10px 5px skyblue;
+    }
+    #multitEffect{
+        box-shadow: 10px 10px black,
+        0 0 20px blue,
+        0 5px darkblue ;
+    }
+</style>
+<body>
+    <h3>박스</h3>
+    <hr>
+    <div id="redbox"></div><hr>
+    <div id="blurbox"></div><hr>
+    <div id="multitEffect"></div><hr>
+</body>
+</html>
