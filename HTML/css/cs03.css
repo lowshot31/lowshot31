@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+h3,
+li {
+    color: darkgoldenrod;
+}
+
+strong {
+    color: red;
+}
+
+div>strong {
+    background: yellow;
+}
+
+#list {
+    background: darkgreen;
+}
+
+#list strong {
+    color: bisque;
+}
+
+#list span {
+    /* id selector id :list(ul) -> li -> span */
+    color: cadetblue;
+}
+
+li:hover {
+    background: white;
+}
+
+div {
+    color: white;
+}
+
+.warning strong {
+    /* class selector */
+    background: none;
+    color: cyan;
+}
